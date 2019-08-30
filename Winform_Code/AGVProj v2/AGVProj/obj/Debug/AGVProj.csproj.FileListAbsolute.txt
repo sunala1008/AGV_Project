@@ -1,0 +1,95 @@
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\bin\Debug\AGVProj.exe.config
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\bin\Debug\AGVProj.exe
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\bin\Debug\AGVProj.pdb
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.csprojAssemblyReference.cache
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.Login.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.Properties.Resources.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.csproj.GenerateResource.cache
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.csproj.CoreCompileInputs.cache
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.exe
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.pdb
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.MainForm.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.LoginControl.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.MenuControl.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.NoticeControl.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.EnrollControl.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.IndicationControl.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.ManualControl.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.SearchControl.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.InformationControl.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.CameraConrtol.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.DetailConrtol.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.MapControl.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\bin\Debug\AForge.dll
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\bin\Debug\AForge.Video.dll
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\bin\Debug\AForge.xml
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\bin\Debug\AForge.Video.xml
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.csproj.CopyComplete
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.MapSmallControl.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.WarningControl.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.Enroll.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.EnrollTest.resources
+C:\Users\tmdal\source\repos\AGVProj\AGVProj\obj\Debug\AGVProj.EnrollConnect.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\bin\Debug\AGVProj.exe.config
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\bin\Debug\AGVProj.exe
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\bin\Debug\AGVProj.pdb
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\bin\Debug\AForge.dll
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\bin\Debug\AForge.Video.dll
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\bin\Debug\AForge.xml
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\bin\Debug\AForge.Video.xml
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.csprojAssemblyReference.cache
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.CameraConrtol.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.DetailConrtol.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.Enroll.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.EnrollTest.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.MapControl.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.InformationControl.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.EnrollControl.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.EnrollConnect.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.Login.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.MainForm.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.IndicationControl.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.ManualControl.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.NoticeControl.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.MenuControl.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.LoginControl.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.MapSmallControl.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.Properties.Resources.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.SearchControl.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.WarningControl.resources
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.csproj.GenerateResource.cache
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.csproj.CoreCompileInputs.cache
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.csproj.CopyComplete
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.exe
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.pdb
+C:\Users\301-19\Documents\카카오톡 받은 파일\AGVProj\AGVProj\obj\Debug\AGVProj.Contorl.Menu.KeyControl.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\bin\Debug\AGVProj.exe.config
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\bin\Debug\AGVProj.exe
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\bin\Debug\AGVProj.pdb
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\bin\Debug\AForge.dll
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\bin\Debug\AForge.Video.dll
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\bin\Debug\AForge.xml
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\bin\Debug\AForge.Video.xml
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.csprojAssemblyReference.cache
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.CameraConrtol.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.DetailConrtol.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.Contorl.Menu.KeyControl.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.MapControl.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.InformationControl.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.EnrollControl.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.Login.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.MainForm.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.IndicationControl.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.ManualControl.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.NoticeControl.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.MenuControl.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.LoginControl.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.MapSmallControl.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.Properties.Resources.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.SearchControl.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.WarningControl.resources
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.csproj.GenerateResource.cache
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.csproj.CoreCompileInputs.cache
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.csproj.CopyComplete
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.exe
+C:\Users\AORUS\Desktop\AGV\Winform_Code\AGVProj v2\AGVProj\obj\Debug\AGVProj.pdb

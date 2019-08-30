@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="AGV_ProjectEntities">
+    <EntitySetMapping Name="AGVRegists">
+      <EntityTypeMapping TypeName="Model.AGVRegist">
+        <MappingFragment StoreEntitySet="AGVRegist">
+          <ScalarProperty Name="AGVName" ColumnName="AGVName" />
+          <ScalarProperty Name="RegisterName" ColumnName="RegisterName" />
+          <ScalarProperty Name="AGVIP" ColumnName="AGVIP" />
+          <ScalarProperty Name="AGVPort" ColumnName="AGVPort" />
+          <ScalarProperty Name="CamIP" ColumnName="CamIP" />
+          <ScalarProperty Name="CamPort" ColumnName="CamPort" />
+          <ScalarProperty Name="Map" ColumnName="Map" />
+          <ScalarProperty Name="Num" ColumnName="Num" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Regists">
+      <EntityTypeMapping TypeName="Model.Regist">
+        <MappingFragment StoreEntitySet="Regist">
+          <ScalarProperty Name="OperatorName" ColumnName="OperatorName" />
+          <ScalarProperty Name="EmployeeNum" ColumnName="EmployeeNum" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

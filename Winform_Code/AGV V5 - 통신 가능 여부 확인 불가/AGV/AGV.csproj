@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18081DD3-25DB-488D-A040-FA510D95A10C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AGV</RootNamespace>
+    <AssemblyName>AGV</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AGVMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AGVMain.Designer.cs">
+      <DependentUpon>AGVMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AGVProject.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AGVProject.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AGVProject.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AGVProject.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AGVProject.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AGVProject.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="AGVRegist.cs">
+      <DependentUpon>AGVProject.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Control\ControlControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\ControlControl.Designer.cs">
+      <DependentUpon>ControlControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\NoticeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\NoticeControl.Designer.cs">
+      <DependentUpon>NoticeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\RegistControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\RegistControl.Designer.cs">
+      <DependentUpon>RegistControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\WorkorderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\WorkorderControl.Designer.cs">
+      <DependentUpon>WorkorderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\AGVData.cs" />
+    <Compile Include="Data\EmployeeData.cs" />
+    <Compile Include="Data\EntityData.cs" />
+    <Compile Include="DB.cs" />
+    <Compile Include="ERegist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ERegist.Designer.cs">
+      <DependentUpon>ERegist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHelper.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Regist.cs">
+      <DependentUpon>AGVProject.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AGVMain.resx">
+      <DependentUpon>AGVMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\ControlControl.resx">
+      <DependentUpon>ControlControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\NoticeControl.resx">
+      <DependentUpon>NoticeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\RegistControl.resx">
+      <DependentUpon>RegistControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\WorkorderControl.resx">
+      <DependentUpon>WorkorderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ERegist.resx">
+      <DependentUpon>ERegist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EntityDeploy Include="AGVProject.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AGVProject.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="AGVProject.edmx.diagram">
+      <DependentUpon>AGVProject.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\AGVRegist.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ActionBack-01-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AGV-Navigation-icon-drop-shadow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_black_small-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_white_small-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_1_1-01-01-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_1_2-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_1_3-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_2_1-01-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_2_2-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_2_3-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_3_1-01-01-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_3_2-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_3_3-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_4_1-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_4_2-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_4_3-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_5_1-01-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_5_2-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_5_3-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_6_1-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_6_2-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_6_3-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_7_1-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_7_2-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_7_3-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_bar_strip-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_bar_symbol-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_basic_02-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_basic-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_choice_02-01-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_choice-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_state-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus_black_small-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus_black-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus_white_small-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus_white-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\None.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\project_name_bar-01-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AGV-Navigation-icon-drop-shadow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Form\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NotPass.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pass.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AGVProject.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AGVProject.edmx</DependentUpon>
+      <LastGenOutput>AGVProject.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="AGVProject.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AGVProject.edmx</DependentUpon>
+      <LastGenOutput>AGVProject.cs</LastGenOutput>
+    </Content>
+    <None Include="Resources\공지사항.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,66 @@
+C:\Users\301-19\source\repos\AGV\AGV\bin\Debug\AGV.exe.config
+C:\Users\301-19\source\repos\AGV\AGV\bin\Debug\AGV.exe
+C:\Users\301-19\source\repos\AGV\AGV\bin\Debug\AGV.pdb
+C:\Users\301-19\source\repos\AGV\AGV\obj\Debug\AGV.csprojAssemblyReference.cache
+C:\Users\301-19\source\repos\AGV\AGV\obj\Debug\AGV.Properties.Resources.resources
+C:\Users\301-19\source\repos\AGV\AGV\obj\Debug\AGV.csproj.GenerateResource.cache
+C:\Users\301-19\source\repos\AGV\AGV\obj\Debug\AGV.csproj.CoreCompileInputs.cache
+C:\Users\301-19\source\repos\AGV\AGV\obj\Debug\AGV.exe
+C:\Users\301-19\source\repos\AGV\AGV\obj\Debug\AGV.pdb
+C:\Users\301-19\source\repos\AGV\AGV\obj\Debug\AGV.Login.resources
+C:\Users\301-19\source\repos\AGV\AGV\obj\Debug\AGV.Control.RegistControl.resources
+C:\Users\301-19\source\repos\AGV\AGV\obj\Debug\AGV.Control.ControlControl.resources
+C:\Users\301-19\source\repos\AGV\AGV\obj\Debug\AGV.Control.NoticeControl.resources
+C:\Users\301-19\source\repos\AGV\AGV\obj\Debug\AGV.Control.WorkorderControl.resources
+C:\Users\301-19\source\repos\AGV\AGV\obj\Debug\AGV.Regist.resources
+C:\Users\301-19\source\repos\AGV\AGV\obj\Debug\AGV.AGVMain.resources
+C:\Users\301-19\Desktop\AGV V4\AGV\bin\Debug\AGV.exe.config
+C:\Users\301-19\Desktop\AGV V4\AGV\bin\Debug\AGV.exe
+C:\Users\301-19\Desktop\AGV V4\AGV\bin\Debug\AGV.pdb
+C:\Users\301-19\Desktop\AGV V4\AGV\obj\Debug\AGV.csprojAssemblyReference.cache
+C:\Users\301-19\Desktop\AGV V4\AGV\obj\Debug\AGV.AGVMain.resources
+C:\Users\301-19\Desktop\AGV V4\AGV\obj\Debug\AGV.Control.ControlControl.resources
+C:\Users\301-19\Desktop\AGV V4\AGV\obj\Debug\AGV.Control.NoticeControl.resources
+C:\Users\301-19\Desktop\AGV V4\AGV\obj\Debug\AGV.Control.RegistControl.resources
+C:\Users\301-19\Desktop\AGV V4\AGV\obj\Debug\AGV.Control.WorkorderControl.resources
+C:\Users\301-19\Desktop\AGV V4\AGV\obj\Debug\AGV.Login.resources
+C:\Users\301-19\Desktop\AGV V4\AGV\obj\Debug\AGV.Properties.Resources.resources
+C:\Users\301-19\Desktop\AGV V4\AGV\obj\Debug\AGV.csproj.GenerateResource.cache
+C:\Users\301-19\Desktop\AGV V4\AGV\obj\Debug\AGV.csproj.CoreCompileInputs.cache
+C:\Users\301-19\Desktop\AGV V4\AGV\obj\Debug\AGV.exe
+C:\Users\301-19\Desktop\AGV V4\AGV\obj\Debug\AGV.pdb
+C:\Users\301-19\Desktop\AGV V4\AGV\obj\Debug\AGV.ERegist.resources
+C:\Users\301-19\Desktop\AGV V4\AGV\bin\Debug\EntityFramework.dll
+C:\Users\301-19\Desktop\AGV V4\AGV\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\301-19\Desktop\AGV V4\AGV\bin\Debug\EntityFramework.xml
+C:\Users\301-19\Desktop\AGV V4\AGV\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\301-19\Desktop\AGV V4\AGV\obj\Debug\AGV.csproj.CopyComplete
+C:\Users\301-19\Desktop\AGV V4\AGV\bin\Debug\AForge.dll
+C:\Users\301-19\Desktop\AGV V4\AGV\bin\Debug\AForge.Video.dll
+C:\Users\301-19\Desktop\AGV V4\AGV\bin\Debug\AForge.xml
+C:\Users\301-19\Desktop\AGV V4\AGV\bin\Debug\AForge.Video.xml
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\bin\Debug\AGV.exe.config
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\bin\Debug\AGV.exe
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\bin\Debug\AGV.pdb
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\bin\Debug\AForge.dll
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\bin\Debug\AForge.Video.dll
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\bin\Debug\EntityFramework.dll
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\bin\Debug\AForge.xml
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\bin\Debug\AForge.Video.xml
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\bin\Debug\EntityFramework.xml
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\obj\Debug\AGV.csprojAssemblyReference.cache
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\obj\Debug\AGV.AGVMain.resources
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\obj\Debug\AGV.Control.ControlControl.resources
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\obj\Debug\AGV.Control.NoticeControl.resources
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\obj\Debug\AGV.Control.RegistControl.resources
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\obj\Debug\AGV.Control.WorkorderControl.resources
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\obj\Debug\AGV.ERegist.resources
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\obj\Debug\AGV.Login.resources
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\obj\Debug\AGV.Properties.Resources.resources
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\obj\Debug\AGV.csproj.GenerateResource.cache
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\obj\Debug\AGV.csproj.CoreCompileInputs.cache
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\obj\Debug\AGV.csproj.CopyComplete
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\obj\Debug\AGV.exe
+C:\Users\AORUS\Desktop\AGV V4 (2)\AGV\obj\Debug\AGV.pdb

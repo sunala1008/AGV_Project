@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'AGV Project.dbo.AGVRegist' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="AGVRegist">
+    <Key>
+      <PropertyRef Name="AGVName" />
+      <PropertyRef Name="RegisterName" />
+      <PropertyRef Name="AGVIP" />
+      <PropertyRef Name="AGVPort" />
+      <PropertyRef Name="CamIP" />
+      <PropertyRef Name="CamPort" />
+      <PropertyRef Name="Map" />
+      <PropertyRef Name="Num" />
+    </Key>
+    <Property Name="AGVName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="RegisterName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AGVIP" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AGVPort" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CamIP" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CamPort" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Map" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Num" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Regist">
+    <Key>
+      <PropertyRef Name="EmployeeNum" />
+    </Key>
+    <Property Name="OperatorName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="EmployeeNum" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="Regist" EntityType="Self.Regist" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AGVRegist" EntityType="Self.AGVRegist" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [AGVRegist].[AGVName] AS [AGVName], 
+    [AGVRegist].[RegisterName] AS [RegisterName], 
+    [AGVRegist].[AGVIP] AS [AGVIP], 
+    [AGVRegist].[AGVPort] AS [AGVPort], 
+    [AGVRegist].[CamIP] AS [CamIP], 
+    [AGVRegist].[CamPort] AS [CamPort], 
+    [AGVRegist].[Map] AS [Map], 
+    [AGVRegist].[Num] AS [Num]
+    FROM [dbo].[AGVRegist] AS [AGVRegist]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
